@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" class="light scroll-smooth" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>General Template</title>
+        <meta name="description" content="Responsive Tailwind CSS Template">
+        <meta name="keywords" content="Onepage, creative, modern, Tailwind CSS, multipurpose, clean">
+        <meta name="author" content="Shreethemes">
+        <meta name="website" content="https://shreethemes.in">
+        <meta name="email" content="support@shreethemes.in">
+        <meta name="version" content="2.0.0">
+
+
+        <!-- Css -->
+        <link href="assets/libs/tobii/css/tobii.min.css" rel="stylesheet">
+        <!-- Main Css -->
+        <link href="assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet">
+        <link href="assets/libs/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="assets/css/tailwind.css">
+
+    </head>
+    
+    <body class="font-rubik text-base text-slate-900 dark:text-white dark:bg-slate-900">
+        <!-- Loader Start -->
+        <!-- <div id="preloader">
+            <div id="status">
+                <div class="logo">
+                    <img src="assets/images/logo-icon-64.png" class="d-block mx-auto animate-[spin_10s_linear_infinite]" alt="">
+                </div>
+                <div class="justify-content-center">
+                    <div class="text-center">
+                        <h4 class="mb-0 mt-2 text-lg font-semibold">Upwind</h4>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Loader End -->
+        
+        <!-- Navbar Start -->
+        <nav class="navbar" id="navbar">
+            <div class="container flex flex-wrap items-center justify-between"> <!-- Changed justify-end to justify-between -->
+                <a class="navbar-brand" href="index.html">
+                    <span class="inline-block dark:hidden">
+                        <span class="font-semibold text-2xl text-gray-800 dark:text-white">Logo</span>
+                    </span>
+                    <span class="hidden dark:inline-block">
+                        <span class="font-semibold text-2xl text-gray-800 dark:text-white">Logo</span>
+                    </span>
+                </a>
+                <button data-collapse="menu-collapse" type="button" class="collapse-btn inline-flex items-center ms-3 text-dark dark:text-white lg_992:hidden" aria-controls="menu-collapse" aria-expanded="false">
+                    <span class="sr-only">Navigation Menu</span>
+                    <i class="mdi mdi-menu mdi-24px"></i>
+                </button>
+                <div class="navigation lg_992:order-1 lg_992:flex hidden" id="menu-collapse">
+                    <ul class="navbar-nav" id="navbar-navlist">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Overview</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Testimonial</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Contact us</a>
+                        </li>                       
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <section class="relative md:py-24 py-16">
+            <div class="container">
+                <div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
+                    <div class="lg:col-span-5 md:col-span-6">
+                        <div class="grid grid-cols-1 gap-[30px]">
+                            <img src="assets/images/product 1.jpg" class="rounded-md" alt="">
+                        </div><!--end grid-->
+                    </div><!--end col-->
+
+                    <div class="lg:col-span-7 md:col-span-6">
+                        <div class="sticky top-20">
+                            <div class="grid lg:grid-cols-12 grid-cols-1 gap-[30px]">
+                                <div class="lg:col-span-12">
+                                    <div class="work-details">
+                                        <h4 class="text-xl font-medium mb-3 border-b border-gray-100 dark:border-gray-700 pb-3">Title Product :</h4>
+                                        <p class="text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci non dolorem consequatur vitae hic.</p>
+                                        <p class="text-slate-400 mt-2">Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos.</p>
+                                    </div>
+                                </div><!--end col-->
+                                
+                                <div class="lg:col-span-5">
+                                    <div class="bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 p-2 rounded-md">
+                                        <h6 class="text-lg font-medium border-b border-gray-100 dark:border-gray-700 pb-1">Price :</h6>
+                                    </div>
+                                </div><!--end col-->
+                            </div><!--end grid-->
+                        </div>
+                    </div><!--end col-->
+                </div><!--end grid-->
+            </div><!--end container-->    
+        </section><!--end section-->
+        <!-- End -->
+
+        <footer class="py-8 bg-slate-800 dark:bg-gray-900">
+            <div class="container">
+                <div class="grid md:grid-cols-12 items-center">
+                    <div class="md:col-span-12 md:mt-0 mt-8">
+                        <div class="text-center">
+                            <p class="text-gray-400">© <script>document.write(new Date().getFullYear())</script> Upwind. Design with <i class="mdi mdi-heart text-orange-700"></i> by <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>.</p>
+                        </div>
+                    </div>
+                </div><!--end row-->
+            </div><!--end container-->
+        </footer><!--end footer-->
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 end-5 h-9 w-9 text-center bg-orange-600 text-white leading-9"><i class="uil uil-arrow-up"></i></a>
+        <!-- Back to top -->
+
+
+        <!-- JAVASCRIPTS -->
+        <script src="assets/libs/gumshoejs/gumshoe.polyfills.min.js"></script>
+        <script src="assets/libs/tobii/js/tobii.min.js"></script>
+        <script src="assets/js/plugins.init.js"></script>
+        <script src="assets/js/app.js"></script>
+        <!-- JAVASCRIPTS -->
+    </body>
+</html>

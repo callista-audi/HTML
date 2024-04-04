@@ -1,0 +1,60 @@
+@@include("partials/main.html")
+    <head>
+        @@include("partials/title-meta.html", {"title": "Upwind"})
+
+        <!-- Css -->
+        <link href="assets/libs/tobii/css/tobii.min.css" rel="stylesheet">
+        @@include("partials/head-css.html")
+    </head>
+    
+    @@include("partials/body.html")
+        
+        @@include("partials/navbar/nav.html")
+
+        <section class="relative md:py-24 py-16">
+            <div class="container">
+                <div class="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
+                    <div class="lg:col-span-5 md:col-span-6">
+                        <div class="grid grid-cols-1 gap-[30px]">
+                            <img src="assets/images/product 1.jpg" class="rounded-md" alt="">
+                        </div><!--end grid-->
+                    </div><!--end col-->
+
+                    <div class="lg:col-span-7 md:col-span-6">
+                        <div class="sticky top-20">
+                            <div class="grid lg:grid-cols-12 grid-cols-1 gap-[30px]">
+                                <div class="lg:col-span-12">
+                                    <div class="work-details">
+                                        <h4 class="text-xl font-medium mb-3 border-b border-gray-100 dark:border-gray-700 pb-3">Title Product :</h4>
+                                        <p class="text-slate-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci non dolorem consequatur vitae hic.</p>
+                                        <p class="text-slate-400 mt-2">Suscipit totam atque dignissimos porro, exercitationem, neque alias ea aliquid quibusdam voluptates impedit maxime aut asperiores consequatur iste. Corporis fuga ducimus dignissimos.</p>
+                                    </div>
+                                </div><!--end col-->
+                                
+                                <div class="lg:col-span-5">
+                                    <div class="bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 p-2 rounded-md">
+                                        <h6 class="text-lg font-medium border-b border-gray-100 dark:border-gray-700 pb-1">Price :</h6>
+                                    </div>
+                                </div><!--end col-->
+                            </div><!--end grid-->
+                        </div>
+                    </div><!--end col-->
+                </div><!--end grid-->
+            </div><!--end container-->    
+        </section><!--end section-->
+        <!-- End -->
+
+        @@include("partials/footer/footer.html")
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 end-5 h-9 w-9 text-center bg-orange-600 text-white leading-9"><i class="uil uil-arrow-up"></i></a>
+        <!-- Back to top -->
+
+
+        <!-- JAVASCRIPTS -->
+        <script src="assets/libs/gumshoejs/gumshoe.polyfills.min.js"></script>
+        <script src="assets/libs/tobii/js/tobii.min.js"></script>
+        @@include("partials/script-file.html")
+        <!-- JAVASCRIPTS -->
+    </body>
+</html>
